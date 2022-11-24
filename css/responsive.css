@@ -1,0 +1,311 @@
+
+/* Large Device Start Here */
+@media (min-width: 992px) and (max-width: 1199px){
+
+    /* Banner Responsive Start Here */
+    #banner {
+        padding-top: 33px;
+        padding-bottom: 26px;
+    }
+
+    .heading_text h3 {
+        font-size: 35px;
+        text-align: left;
+        padding-bottom: 9px;
+    }
+
+    .heading_text p {
+        text-align: left;
+        padding-right: 0;
+    }
+
+    .heading_text {
+        margin-bottom: 60px;
+    }
+
+    .heading_text a {
+        margin-left: 0;
+    }
+    /* Banner Responsive End Here */
+
+    /* Password Responsive Start Here */
+    #password {
+        padding-top: 46px;
+        padding-bottom: 49px;
+    }
+
+    .main h1 {
+        font-size: 44px;
+        padding-bottom: 0;
+    }
+
+    .text {
+        line-height: 159%;
+        padding-bottom: 0;
+    }
+
+    .inputtext {
+        width: 80%;
+    }
+
+    .btngen {
+        margin-top: 30px;
+    }
+
+    .genaratecode {
+        font-size: 22px;
+    }
+    /* Password Responsive End Here */
+}
+/* Large Device End Here */
+
+/* Medium Device Start Here */
+@media (min-width: 768px) and (max-width: 991px){
+    /* Navbar Responsive Start Here */
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    #navbarSupportedContent {
+        background: #8454F5;
+        padding: 30px 15px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #FFF;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        color: var(--colorwhite);
+    }
+    /* Navbar Responsive End Here */
+
+    /* Banner Responsive Start Here */
+    #banner {
+        padding-top: 33px;
+        padding-bottom: 26px;
+    }
+
+    .heading_text h3 {
+        font-size: 46px;
+        text-align: center;
+        padding-bottom: 9px;
+    }
+
+    .heading_text p {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .heading_text {
+        margin-bottom: 60px;
+    }
+
+    .heading_text a {
+        margin-left: 237px;
+    }
+    /* Banner Responsive End Here */
+
+    /* Password Responsive Start Here */
+    #password {
+        padding-top: 46px;
+        padding-bottom: 49px;
+    }
+
+    .main h1 {
+        font-size: 35px;
+        padding-bottom: 0;
+        line-height: 138%;
+    }
+
+    .text {
+        line-height: 159%;
+        padding-bottom: 0;
+    }
+
+    .inputtext {
+        width: 80%;
+    }
+
+    .btngen {
+        margin-top: 30px;
+    }
+
+    .genaratecode {
+        font-size: 20px;
+    }
+    /* Password Responsive End Here */
+}
+/* Medium Device End Here */
+
+/* Small Device Start Here */
+@media(min-width: 576px) and (max-width: 767px){
+     /* Navbar Responsive Start Here */
+     .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    #navbarSupportedContent {
+        background: #8454F5;
+        padding: 30px 15px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #FFF;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        color: var(--colorwhite);
+    }
+    /* Navbar Responsive End Here */
+
+    /* Banner Responsive Start Here */
+    #banner {
+        padding-top: 33px;
+        padding-bottom: 26px;
+    }
+
+    .heading_text h3 {
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 9px;
+    }
+
+    .heading_text p {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .heading_text {
+        margin-bottom: 60px;
+    }
+
+    .heading_text a {
+        margin-left: 160px;
+    }
+    /* Banner Responsive End Here */
+
+    /* Password Responsive Start Here */
+    #password {
+        padding-top: 46px;
+        padding-bottom: 49px;
+    }
+
+    .main h1 {
+        font-size: 35px;
+        padding-bottom: 0;
+        line-height: 138%;
+    }
+
+    .text {
+        line-height: 159%;
+        padding-bottom: 0;
+    }
+
+    .inputtext {
+        width: 80%;
+    }
+
+    .btngen {
+        margin-top: 30px;
+    }
+
+    .genaratecode {
+        font-size: 18px;
+    }
+    /* Password Responsive End Here */
+}
+/* Small Device End Here */
+
+/* Extra Small Device Start Here */
+@media (max-width: 575.99px){
+
+    /* Navbar Responsive Start Here */
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    #navbarSupportedContent {
+        background: #8454F5;
+        padding: 30px 15px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #FFF;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        color: var(--colorwhite);
+    }
+    /* Navbar Responsive End Here */
+
+    /* Banner Responsive Start Here */
+    #banner {
+        padding-top: 33px;
+        padding-bottom: 26px;
+    }
+
+    .heading_text h3 {
+        font-size: 26px;
+        text-align: center;
+        padding-bottom: 9px;
+    }
+
+    .heading_text p {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .heading_text {
+        margin-bottom: 60px;
+    }
+
+    .heading_text a {
+        margin-left: 160px;
+    }
+    /* Banner Responsive End Here */
+
+    /* Password Responsive Start Here */
+    #password {
+        padding-top: 46px;
+        padding-bottom: 49px;
+    }
+
+    .main h1 {
+        font-size: 28px;
+        padding-bottom: 0;
+        line-height: 138%;
+    }
+
+    .text {
+        line-height: 159%;
+        padding-bottom: 0;
+    }
+
+    .inputtext {
+        width: 80%;
+    }
+
+    .btngen {
+        margin-top: 30px;
+    }
+
+    .genaratecode {
+        font-size: 9px;
+    }
+    /* Password Responsive End Here */
+}
+/* Extra Small Device End Here */
+
+
+@media (min-width: 320px) and (max-width: 400px){
+    .heading_text a {
+        margin-left: 77px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 501px){
+    .heading_text a {
+        margin-left: 127px;
+    }
+}

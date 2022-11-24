@@ -1,0 +1,261 @@
+/* ======= Common Css Area Start Here ======= */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul,
+  ol {
+    list-style-type: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    line-height: 0.8;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  /* ======= Common Css Area End Here ======= */
+  
+  /* ======= Root Css Area Start Here ======= */
+  :root {
+    --nunito: 'Nunito', sans-serif;
+    --popp: 'Poppins', sans-serif;
+    --thin: 100;
+    --exlight: 200;
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semibold: 600;
+    --bold: 700;
+    --exbold: 800;
+    --black: 900;
+    --weight: 1000;
+    --primarycolor: #29313D;
+    --colorwhite: #ffffff;
+    --colorpurple: #8454F5;
+    --text18: 18px;
+    --headingtext: 56px;
+    --descriptiontxt: 20px;
+  }
+  /* ======= Root Css Area End Here ======= */
+  
+  /* ======= Root Css Area Start Here ======= */
+  ::selection {
+    
+  }
+  /* ======= Root Css Area End Here ======= */
+
+  
+
+/* ======= Wrapper Css Area Start Here ======= */
+.wrapper {
+  background-image: linear-gradient(to right, rgba(148, 148, 255, 0.241) , rgba(255, 216, 152, 0.245));
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* ======= Wrapper Css Area End Here ======= */
+
+/* ======= Navbar Css Area Start Here ======= */
+
+.new {
+  margin-top: 30px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: var(--popp);
+  font-size: var(--text18);
+  font-weight: var(--regular);
+  color: var(--primarycolor);
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: var(--primarycolor);
+}
+
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link {
+  padding-right: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item:nth-child(2) .nav-link {
+  background: #8454F5;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--colorwhite);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item:nth-child(2) .nav-link:hover {
+  background: #4302d9;
+  color: var(--colorwhite);
+}
+
+.logo {
+  line-height: 600%;
+}
+
+.logo img{
+  width: 50px;
+}
+
+.navbar-toggler i {
+  color: var(--primarycolor);
+}
+/* ======= Navbar Css Area End Here ======= */
+
+/* ======= Banner Css Area Start Here ======= */
+#banner {
+  padding-top: 180px;
+  padding-bottom: 60px;
+}
+
+.heading_text h3 {
+  font-family: var(--popp);
+  font-weight: var(--bold);
+  font-size: 60px;
+  text-transform: capitalize;
+  color: var(--primarycolor);
+  line-height: 150%;
+  padding-bottom: 30px;
+}
+
+.heading_text p {
+  font-family: var(--nunito);
+  font-weight: var(--medium);
+  font-size: 16px;
+  color: var(--primarycolor);
+  text-transform: capitalize;
+  padding-bottom: 30px;
+  line-height: 200%;
+  padding-right: 197px;
+}
+
+.heading_text a {
+  font-family: var(--popp);
+  font-weight: var(--regular);
+  font-size: var(--text18);
+  color: var(--colorwhite);
+  background: linear-gradient(to right, #00b1ed , #00d2e3);
+  border-radius: 30px;
+  padding: 15px 20px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.heading_text a:hover {
+  background: linear-gradient(to right, #00d2e3,#00b1ed);
+  color: #29313D;
+}
+/* ======= Banner Css Area End Here ======= */
+
+
+/* ======= Password Css Area Start Here ======= */
+
+#password {
+  padding-top: 180px;
+  padding-bottom: 300px;
+}
+
+
+.password_gen {
+  margin: 60px 0px;
+}
+
+.main h1 {
+  font-family: var(--popp);
+  font-weight: var(--bold);
+  font-size: 52px;
+  color: var(--primarycolor);
+  text-transform: capitalize;
+  padding-bottom: 40px;
+}
+
+.text {
+  font-family: var(--nunito);
+  font-weight: var(--medium);
+  font-size: 20px;
+  color: var(--primarycolor);
+  text-transform: capitalize;
+  margin-bottom: 100px;
+}
+
+.inputtext {
+  width: 20%;
+  border: 1px solid #ddd;
+  padding: 10px 18px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.btngen {
+  background: linear-gradient(to right, #00b1ed , #00d2e3);
+  font-size: 15px;
+  cursor: pointer;
+  color: var(--colorwhite);
+  border: none;
+  padding: 15px 25px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  font-size: var(--text18);
+}
+
+.btngen:hover {
+  background: linear-gradient(to right, #00d2e3,#00b1ed);
+  color: #29313D;
+}
+
+
+.genaratecode {
+  font-family: var(--popp);
+  font-weight: var(--medium);
+  font-size: 35px;
+  color: rgb(0, 132, 255);
+  margin-top: 30px;
+  line-height: 200%;
+}
+/* ======= Password Css Area End Here ======= */
+
+/* ======= Navbar Css Area Start Here ======= */
+/* ======= Navbar Css Area End Here ======= */
